@@ -4,7 +4,7 @@ import CurrencyFormat from 'react-currency-format';
 import { useStateValue } from '../StateProvider'; // Homework - import useStateValue from StateProvider
 function Subtotal() {
 
-    const [{ basket }] = useStateValue() // Pull the basket from useStateValue
+    const [{ basket }, dispatch] = useStateValue() // Pull the basket from useStateValue
 
     // Homework - Calculate basket total
     const calculateTotal = (basket) => {

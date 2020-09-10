@@ -12,11 +12,18 @@ function Home() {
                 <div className="home_row">
                     <Product
                         id="1223333"
+                        title="ZOTAC Gaming GeForce RTX 2070 Super Mini 8GB GDDR6 256-Bit "
+                        price={677.99}
+                        image="https://images-na.ssl-images-amazon.com/images/I/61E3SL8fCIL._AC_UL160_SR160,160_.jpg"
+                        rating={5} />
+
+
+                    <Product
+                        id="127673333"
                         title="Goodthreads Men's Slim-Fit Long-Sleeve Plaid Poplin Shirt"
                         price={7.99}
                         image="https://images-na.ssl-images-amazon.com/images/I/51gQUn2dA4L._AC_UL520_SR400,520_QL65_.jpg"
                         rating={5} />
-
 
 
                     <Product
@@ -51,10 +58,22 @@ function Home() {
 
                 <div className="home_row">
                     <Product
+                        id="222453"
+                        title="Michael Michael Kors Voyager East/West Signature Tote"
+                        price={189.99}
+                        image="https://m.media-amazon.com/images/I/81D3b6PHZyL._AC_UL640_QL65_.jpg"
+                        rating={5} />
+                    <Product
                         id="12455453"
                         title="Salt and Pepper Grinder Wooden SET "
                         price={18.99}
                         image="https://images-na.ssl-images-amazon.com/images/I/41JR9OYu+gL._AC_US320_QL65_.jpg"
+                        rating={5} />
+                    <Product
+                        id="566353"
+                        title="New Apple MacBook Pro (13-inch, 8GB RAM, 256GB SSD Storage, Magic Keyboard) - Silver"
+                        price={1299.99}
+                        image="https://m.media-amazon.com/images/I/71BMVOs2xML._AC_UY436_QL65_.jpg"
                         rating={5} />
                 </div>
             </div>
